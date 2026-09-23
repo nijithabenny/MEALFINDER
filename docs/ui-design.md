@@ -1,21 +1,22 @@
 # UI Design
 
 ## Typography
-Primary font: 
+Primary font: 'Montserrat', sans-serif
+Secondary font: 'Lato', sans-serif
 
 ## Color System
-Primary:
+Primary: #e16120
 Secondary:
-Background:
-Text:
+Background: default
+Text: white
+divider: #f0f0f0
+placeholder text: #A9A9A9
+close: red
 
-## Spacing
-8px
-16px
-24px
-32px
+## Spacing/gap
+20px
 
-##Responsive Breakpoints
+## Responsive Breakpoints
 Desktop:
 Tablet:
 Mobile:
@@ -23,8 +24,14 @@ Mobile:
 ## Components
 - Navbar
 - Sidebar
+- Header image
 - Search bar
 - Cards
+
+## External links used
+Bootstrap CSS
+Bootstrap JS
+Font Awesome CSS
 
 
 Why CSS Grid?

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.custom-nav {
+    background-color: #e16120;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 600;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.horz-divider {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.btn-close-round {
+    box-sizing: content-box;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    color: red;
+    background: transparent var(--bs-btn-close-bg) center / var(--bs-btn-close-width) auto no-repeat;
+    border: 2px solid red;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.offcanvas {
+    bottom: 25vh !important;
+}
+
+.offcanvas-header {
+    justify-content: flex-end;
+}
+
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img {
+    height: 40vh;
+    min-height: 350px;
+    width: 100vw;
+    background-image: url("../assets/images/header_image.1dc0f346d407fc577d16.jpg");
+    filter: brightness(0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.search-txt {
+    position: absolute;
+    top: 12vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-control {
+    width: 50% !important;
+    border-radius: 16px !important;
+}
+
+.btn-search {
+    background-color: #e16120;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    height: 34px;
+    width: 34px;
+}
+
+input[type="search"]::placeholder {
+    color: #A9A9A9;
+    opacity: 1;
+    /* Required for Firefox to display full color */
+    font-family: 'Lato', sans-serif;
+}
