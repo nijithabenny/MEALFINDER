@@ -7,14 +7,27 @@ Secondary font: 'Lato', sans-serif
 ## Color System
 Primary: #e16120
 Secondary:
-Background: default
+Background: #f5f5f5
 Text: white
-divider: #f0f0f0
-placeholder text: #A9A9A9
-close: red
+Divider: #f0f0f0
+Placeholder text: #A9A9A9
+Close: red
+Card: white
 
 ## Spacing/gap
-20px
+Gap: 20px
+Margin: 40px
+Sub heading letter spacing: 2.5px
+Badge padding: 2px 6px
+
+
+## Border Radius
+Search: 16px
+Card: 5px
+Badge: 4px
+
+## Font Weight
+Sub Heading: 600
 
 ## Responsive Breakpoints
 Desktop:
