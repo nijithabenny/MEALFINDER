@@ -11,6 +11,7 @@ Background: #f5f5f5
 Text: white
 Divider: #f0f0f0
 Placeholder text: #A9A9A9
+Description: #565656
 Close: red
 Card: white
 
@@ -19,6 +20,7 @@ Gap: 20px
 Margin: 40px
 Sub heading letter spacing: 2.5px
 Badge padding: 2px 6px
+8px
 
 
 ## Border Radius
@@ -28,6 +30,7 @@ Badge: 4px
 
 ## Font Weight
 Sub Heading: 600
+700
 
 ## Responsive Breakpoints
 Desktop:
