@@ -14,14 +14,17 @@ Placeholder text: #A9A9A9
 Description: #565656
 Close: red
 Card: white
+Descriptive card: #fcfcfc
+#3b9692
 
 ## Spacing/gap
 Gap: 20px
 Margin: 40px
 Sub heading letter spacing: 2.5px
 Badge padding: 2px 6px
-8px
-
+8px 
+8px 20px
+16px
 
 ## Border Radius
 Search: 16px
@@ -55,6 +58,12 @@ Used for the category card layout because it provides better control over two-di
 
 Why Bootstrap?
 Used for responsive sidebar, navbar components, while custom CSS handles the application's visual identity.
+
+How the list-markers are custom styles?
+Default markers are removed using 'list-style:none;' property
+Added a 'counter-increment' inside the li
+Added 'content' as counter in pseudo element selector and provided necessary styling
+Gave display-inline-flex with height and width to get the perfect circle
 
 Mobile table behaviour
 Converted the desktop table into a horizontally scrollable container on smaller screens rather than allowing the page itself to overflow.
