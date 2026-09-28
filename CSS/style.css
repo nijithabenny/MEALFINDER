@@ -30,9 +30,9 @@ body {
     width: 20px;
     height: 20px;
     padding: 1px;
-    color: red;
+    color: #e16120;
     background: transparent var(--bs-btn-close-bg) center / var(--bs-btn-close-width) auto no-repeat;
-    border: 2px solid red;
+    border: 2px solid #e16120;
     border-radius: 50%;
     justify-content: center;
     display: flex;
@@ -67,7 +67,6 @@ section {
 
 .search-txt {
     position: absolute;
-    top: 12vh;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -144,7 +143,7 @@ input[type="search"]::placeholder {
 
 .card-img-top:hover {
     transform: scale(0.9);
-    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
     transition-duration: 100ms;
 }
 
@@ -241,14 +240,14 @@ a {
 }
 
 .meal-img {
-    padding: 0px 60px 60px 0 !important;
+    padding: 0px 40px 40px 0 !important;
 
 }
 
 .meal-details-card {
     background-color: white;
     padding: 40px;
-    margin:0px !important;
+    margin: 0px !important;
 }
 
 .sub-underline {
@@ -258,8 +257,8 @@ a {
     font-weight: 900;
 }
 
-.card-img{
-    height:50vh;
+.card-img {
+    /* height: 80%; */
 }
 
 .item-head {
@@ -269,6 +268,14 @@ a {
 
 .item-value {
     letter-spacing: 2.5px;
+}
+
+.truncate-text {
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 .item-tag-outer {
@@ -326,7 +333,7 @@ a {
     margin: 12px !important;
 }
 
-.list-unord-item{
+.list-unord-item {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -338,12 +345,13 @@ a {
     padding: 8px;
 }
 
-.list-ins{
+.list-ins {
     list-style: none;
     padding: 0;
     margin: 12px !important;
 }
-.list-ins-item::before{
+
+.list-ins-item::before {
     content: "\f14a";
     font-family: "Font Awesome 7 Free" !important;
     color: #e16120;

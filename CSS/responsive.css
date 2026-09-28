@@ -1,0 +1,189 @@
+/* Mobile S 320px*/
+/* Mobile M 375px */
+/* Mobile L 425px */
+/* Tablet 768px */
+/* Laptop 1024px */
+/* Laptop L 1440px */
+/* ****************************************************-Header Banner-******************************************************************* */
+
+@media (min-width:320px) and (max-width:374px) {
+    .text-white {
+        font-size: 16px;
+    }
+
+    .breadcrumb {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:375px) and (max-width:424px) {
+    .text-white {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:425px) and (max-width:547px) {
+    .text-white {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:548px) and (max-width:768px) {
+    .text-white {
+        font-size: 24px;
+    }
+}
+
+/* *****************************************************-vegetarian card main-****************************************************************** */
+@media (min-width:1024px) and (max-width:1439px) {
+    .card-text-main {
+        font-size: 12px;
+    }
+}
+
+/* ****************************************************-meal details measure-******************************************************************* */
+@media (max-width: 374px) {
+    .list-unord {
+        font-size: 11px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:375px) and (max-width: 419px) {
+    .list-unord {
+        font-size: 12px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:420px) and (max-width: 512px) {
+
+    .list-unord {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 1125px) and (max-width: 1023px) {
+
+    .list-unord {
+        font-size: 12px;
+    }
+}
+
+
+/* *****************************************************-meal details ingredients-************************************************************ */
+
+@media (min-width:320px) and (max-width:424px) {
+
+    .list-ord {
+        font-size: 12.5px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:425px) and (max-width:519px) {
+
+    .list-ord {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:520px) and (max-width:551px) {
+
+    .list-ord {
+        font-size: 12.5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:552px) and (max-width:575px) {
+
+    .list-ord {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:576px) and (max-width:607px) {
+    .item-color-card {
+        position: absolute;
+        left: 40px;
+        width: 75vw;
+    }
+
+    .meal-img {
+        height: 500px;
+    }
+
+    .list-ord {
+        font-size: 12px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:608px) and (max-width:679px) {
+    .item-color-card {
+        position: absolute;
+        left: 40px;
+        width: 75vw;
+    }
+
+    .meal-img {
+        height: 500px;
+    }
+
+    .list-ord {
+        font-size: 14px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:680px) and (max-width:860px) {
+    .item-color-card {
+        position: absolute;
+        left: 40px;
+        width: 80vw;
+    }
+
+    .meal-img {
+        height: 500px;
+    }
+
+    .list-ord {
+        font-size: 16px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:860px) and (max-width:871px) {
+    .list-ord {
+        font-size: 12.5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:872px) and (max-width:967px) {
+    .list-ord {
+        font-size: 14px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:968px) and (max-width:1128px) {
+    .list-ord {
+        font-size: 12.5px;
+    }
+}
+
+/* **********************************************************************-card grids-***************************************************************************************** */
+
+@media (max-width:767px) {
+    .category-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .category-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

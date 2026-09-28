@@ -8,12 +8,11 @@ Secondary font: 'Lato', sans-serif
 Primary: #e16120
 Secondary:
 Background: #f5f5f5
-Text: white
+Text: #ffffff
 Divider: #f0f0f0
 Placeholder text: #A9A9A9
 Description: #565656
-Close: red
-Card: white
+Card: #ffffff
 Descriptive card: #fcfcfc
 #3b9692
 
