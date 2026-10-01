@@ -140,12 +140,16 @@
 @media (min-width:680px) and (max-width:860px) {
     .item-color-card {
         position: absolute;
-        left: 40px;
+        left: 50px;
         width: 80vw;
     }
 
     .meal-img {
         height: 500px;
+    }
+
+    .card-img {
+        height: 250px !important;
     }
 
     .list-ord {
